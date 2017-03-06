@@ -5,24 +5,39 @@ html{
 .text-white{
   color: white;
 }
+.text-bold{
+  font-weight: bold;
+}
 header{
   background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.9)),url(http://makeit.netflix.com/assets/hero-1-43891298d3af0f7434620c7d809251ebeda494f88bee1699f4b2f5ce09a08239.jpg);
   height: 600px;
   background-size: cover;
 }
 .menu{
-  padding: 24px 0;
+  padding: 50px 0;
 }
-.links {
+.menu a:hover{
+  color: gray;
+  transition: all 0.3s ease-in-out;
+}
+.links{
   display: flex;
-  justify-content: flex-end;
   align-items: center;
+}
+.social{
+  margin-left: 15px;
 }
 .pages li, .social li{
   display: inline-block;
 }
 .pages li:last-child{
   padding-left: 10px;
+}
+.social ul{
+  padding-left: 20px;
+}
+.social li{
+  font-size: 1.5rem;
 }
 .social li:last-child{
   padding-left: 10px;
