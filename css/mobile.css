@@ -1,9 +1,18 @@
 @media (max-width:768px){
+  header{
+    height: 900px;
+  }
   .pages ul{
     padding-left: 0;
   }
   .links{
     padding-left: 3px;
+  }
+  .hero-text{
+    padding-left: 15px;
+  }
+  .hero-text h1{
+    font-size: 2.5rem;
   }
 }
 @media (min-width:768px){
