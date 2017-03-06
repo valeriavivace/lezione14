@@ -1,9 +1,29 @@
 html{
-  font-size: 16px;
+  font-size: 20px;
   font-family: sans-serif;
 }
+.text-white{
+  color: white;
+}
 header{
-  background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4)),url(http://makeit.netflix.com/assets/hero-1-43891298d3af0f7434620c7d809251ebeda494f88bee1699f4b2f5ce09a08239.jpg);
+  background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.9)),url(http://makeit.netflix.com/assets/hero-1-43891298d3af0f7434620c7d809251ebeda494f88bee1699f4b2f5ce09a08239.jpg);
   height: 600px;
   background-size: cover;
+}
+.menu{
+  padding: 24px 0;
+}
+.links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.pages li, .social li{
+  display: inline-block;
+}
+.pages li:last-child{
+  padding-left: 10px;
+}
+.social li:last-child{
+  padding-left: 10px;
 }
