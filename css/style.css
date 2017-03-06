@@ -53,7 +53,9 @@ header{
   font-size: 4.5rem;
 }
 .hero-arrow{
-  margin: 60px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
 }
 /******section-video**/
 .section-video{
@@ -85,4 +87,20 @@ header{
   top: 50%;
   left: 50%;
   transform: translate(-32%, -50%);
+}
+/******section-fitness**/
+.img-fitness{
+  background-image:url(http://makeit.netflix.com/assets/hero-2-155316d8a6859efc3816d85a06de26fb5aaec52a05a9a114649b30c08ac05541.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+}
+.text-fitness{
+  padding: 54px 104px 45px 104px;
+}
+.text-fitness h3{
+  font-size: 2rem;
+}
+.text-fitness p{
+  font-size: 1rem;
 }

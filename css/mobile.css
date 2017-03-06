@@ -1,9 +1,10 @@
 @media (max-width:768px){
   header{
-    height: 900px;
+    height: 800px;
   }
   .pages ul{
     padding-left: 0;
+    padding-top: 30px;
   }
   .links{
     padding-left: 3px;
