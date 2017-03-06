@@ -55,3 +55,34 @@ header{
 .hero-arrow{
   margin: 60px auto 0 auto;
 }
+/******section-video**/
+.section-video{
+  background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.6)),
+  url(http://makeit.netflix.com/assets/video-still-f0fdfad1af8162152060d6fd13c606335861523beaee4549731f1daab2de2fed.jpg);
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.play{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: relative;
+}
+.play:after{
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 14px solid transparent;
+  border-left: 25px solid #ffffff;
+  border-bottom: 14px solid transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-32%, -50%);
+}
