@@ -1,0 +1,9 @@
+html{
+  font-size: 16px;
+  font-family: sans-serif;
+}
+header{
+  background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4)),url(http://makeit.netflix.com/assets/hero-1-43891298d3af0f7434620c7d809251ebeda494f88bee1699f4b2f5ce09a08239.jpg);
+  height: 600px;
+  background-size: cover;
+}
