@@ -138,6 +138,7 @@ header{
   padding-left: 5px;
 }
 .section-though-round-images{
+  background-size: cover;
   width: 50px;
   height: 50px;
   border-radius: 25px;
@@ -160,27 +161,22 @@ header{
 }
 .ultimate{
   background-image: url(http://makeit.netflix.com/assets/trainers/trainer-thumb-sprite-743f428ece2acf3ab6bbc13912468394509d62ab051ea29f7c8dec2083bb5505.jpg);
-  background-size: cover;
   background-position: 35.7% 0
 }
 .narcos{
   background-image: url(http://makeit.netflix.com/assets/trainers/trainer-thumb-sprite-743f428ece2acf3ab6bbc13912468394509d62ab051ea29f7c8dec2083bb5505.jpg);
-  background-size: cover;
   background-position: 42.84% 0;
 }
 .jessica{
   background-image: url(http://makeit.netflix.com/assets/trainers/trainer-thumb-sprite-743f428ece2acf3ab6bbc13912468394509d62ab051ea29f7c8dec2083bb5505.jpg);
-  background-size: cover;
   background-position: 49.98% 0;
 }
 .orange{
   background-image: url(http://makeit.netflix.com/assets/trainers/trainer-thumb-sprite-743f428ece2acf3ab6bbc13912468394509d62ab051ea29f7c8dec2083bb5505.jpg);
-  background-size: cover;
   background-position: 64.26% 0;
 }
 .house{
   background-image: url(http://makeit.netflix.com/assets/trainers/trainer-thumb-sprite-743f428ece2acf3ab6bbc13912468394509d62ab051ea29f7c8dec2083bb5505.jpg);
-  background-size: cover;
   background-position: 57.12% 0;
 }
 .images-vips table th{
@@ -189,4 +185,19 @@ header{
 .images-vips table td p{
   border-left: 2px solid red;
   padding-left: 5px;
+}
+/*****trainer****/
+.trainer{
+  height: 550px;
+  background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4)),url(http://makeit.netflix.com/assets/work-it-13b26d2c7574639de2e68e12b2ea4de3de86794c9328adea21b5c5030ac04471.jpg);
+  background-position: left;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.text-trainer{
+  padding-left: 40px;
+}
+.text-trainer h1{
+  font-size: 3rem;
 }
