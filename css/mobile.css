@@ -50,7 +50,7 @@
   }
   .images-vips table tr{
     display: inline-block;
-    margin-right: 10px;
+    padding-right: 25px;
   }
 }
 
