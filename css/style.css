@@ -220,3 +220,15 @@ header{
   background-size: cover;
   height: 550px;
 }
+/***section-power**/
+.img-power{
+  height: 500px;
+  background-image: url(http://makeit.netflix.com/assets/two-ways-1-d-db800b6f0b8487a89e4b3623eaa06edc278494e089e48d488736d0f182dec37f.jpg);
+  background-size: cover;
+}
+.text-power{
+  padding: 60px;
+}
+.text-power h2{
+  font-size: 3rem;
+}
