@@ -201,3 +201,22 @@ header{
 .text-trainer h1{
   font-size: 3rem;
 }
+/****section-motivation*/
+.section-motivation{
+  padding-bottom:100px;
+}
+.text-motivation{
+  padding: 60px;
+  padding-bottom: 27px;
+}
+.text-motivation h2{
+  font-size: 3rem;
+}
+.text-motivation p{
+  font-size: 1rem;
+}
+.img-motivation{
+  background-image: url(http://makeit.netflix.com/assets/two-ways-2-d-dc2b02a0c5e1b9a88a4a0f5a0409235a3b9febeac0b423ac8d48c44e45cb7ac5.jpg);
+  background-size: cover;
+  height: 550px;
+}
