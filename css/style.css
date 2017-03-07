@@ -96,11 +96,24 @@ header{
   height: 650px;
 }
 .text-fitness{
-  padding: 54px 104px 45px 104px;
+  padding: 54px 104px 44px 104px;
 }
 .text-fitness h3{
   font-size: 2rem;
 }
 .text-fitness p{
   font-size: 1rem;
+}
+/*****section-explore***/
+.section-explore{
+  background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4)),url(http://makeit.netflix.com/assets/three-types-9789b4a91aebe4d153dce477a8c2526a44d498056406a283360518a8c5fc25d3.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-explore h1{
+  font-size: 4.5rem;
 }
