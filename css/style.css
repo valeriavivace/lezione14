@@ -232,3 +232,18 @@ header{
 .text-power h2{
   font-size: 3rem;
 }
+.text-power-button{
+  margin: 50px auto 0 auto;
+  border: 2px solid red;
+  max-width: 200px;
+  padding: 5px;
+  text-align: center;
+  color: red;
+}
+.text-power-button:hover{
+  color: white;
+  background: red;
+}
+.text-power a{
+  text-decoration: none;
+}
