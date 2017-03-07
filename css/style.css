@@ -221,6 +221,9 @@ header{
   height: 550px;
 }
 /***section-power**/
+.section-power{
+  margin-bottom: 60px;
+}
 .img-power{
   height: 500px;
   background-image: url(http://makeit.netflix.com/assets/two-ways-1-d-db800b6f0b8487a89e4b3623eaa06edc278494e089e48d488736d0f182dec37f.jpg);
@@ -246,4 +249,17 @@ header{
 }
 .text-power a{
   text-decoration: none;
+}
+/************+footer***************/
+/****section-friends****/
+.section-friends{
+  background-color: #221F1F;
+}
+.section-friends h1{
+  margin-left: 100px;
+  padding-top: 100px;
+  font-size: 4rem;
+}
+.gif{
+  margin: 50px 0;
 }

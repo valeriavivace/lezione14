@@ -52,6 +52,10 @@
     display: inline-block;
     padding-right: 25px;
   }
+  .section-friends-gifs{
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 @media (max-width:1000px){
@@ -80,5 +84,15 @@
   }
   .text-motivation{
     padding-left: 30px;
+  }
+  .section-friends{
+  }
+  .section-friends h1{
+    margin-left: 50px;
+    padding-top: 60px;
+    font-size: 3rem;
+  }
+  .section-friends-gifs{
+    margin-top: 40px;
   }
 }
