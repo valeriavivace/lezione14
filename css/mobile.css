@@ -24,7 +24,11 @@
   .section-explore h1{
     font-size: 3rem;
   }
+  .section-though{
+    text-align: center;
+  }
 }
+
 @media (min-width:768px){
   .links ul{
     padding-left: 4px;
@@ -37,5 +41,41 @@
   }
   .text-explore h1{
     text-align: center;
+  }
+  .text-section-though{
+    margin-top: 114px;
+  }
+  .images-vips table{
+    margin-left: -10px;
+  }
+  .images-vips table tr{
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width:1000px){
+  .section-though{
+    text-align: center;
+    height: 1100px;
+  }
+  .text-section-though h4{
+    max-width: 60px;
+  }
+  .text-section-though{
+    padding-top: 30px;
+  }
+  .images-vips{
+    margin-top: 0;
+  }
+  .images-vips table{
+    margin: 0 auto;
+    text-align:left;
+  }
+  .images-vips table th{
+    padding-top: 30px;
+  }
+  .images-vips table td{
+    padding-top: 25px;
   }
 }

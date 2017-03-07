@@ -93,7 +93,7 @@ header{
   background-image:url(http://makeit.netflix.com/assets/hero-2-155316d8a6859efc3816d85a06de26fb5aaec52a05a9a114649b30c08ac05541.jpg);
   background-size: cover;
   background-position: center;
-  height: 650px;
+  height: 649px;
 }
 .text-fitness h3{
   font-size: 2rem;
@@ -113,4 +113,67 @@ header{
 }
 .section-explore h1{
   font-size: 4.5rem;
+}
+/****section-though*/
+.section-though{
+  background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.4)),
+  url(http://makeit.netflix.com/assets/trainers/terry-bg-b0f4f5e8cc3260b594e0e14e7509494559723ff2e59fd09f3dc8198be8a58c7b.jpg);
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section-though h1{
+  font-size: 4rem;
+}
+.section-though-device{
+  background-image: url(http://makeit.netflix.com/assets/trainers/trainer-device-sprite-f77b7d3e398f051e5da6ca375cd71780c079775e391514c40a16a367503ac5b6.png);
+  background-size: cover;
+  background-position:40% 0;
+  height: 318px;
+  width: 200px;
+  border-radius: 16%;
+}
+.text-section-though h4{
+  border-left: 2px solid red;
+  padding-left: 5px;
+}
+.section-though-round-images{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+.images-vips{
+  margin-top: 30px;
+}
+.ultimate{
+  background-image: url(http://makeit.netflix.com/assets/trainers/trainer-thumb-sprite-743f428ece2acf3ab6bbc13912468394509d62ab051ea29f7c8dec2083bb5505.jpg);
+  background-size: cover;
+  background-position: 35.7% 0
+}
+.narcos{
+  background-image: url(http://makeit.netflix.com/assets/trainers/trainer-thumb-sprite-743f428ece2acf3ab6bbc13912468394509d62ab051ea29f7c8dec2083bb5505.jpg);
+  background-size: cover;
+  background-position: 42.84% 0;
+}
+.jessica{
+  background-image: url(http://makeit.netflix.com/assets/trainers/trainer-thumb-sprite-743f428ece2acf3ab6bbc13912468394509d62ab051ea29f7c8dec2083bb5505.jpg);
+  background-size: cover;
+  background-position: 49.98% 0;
+}
+.orange{
+  background-image: url(http://makeit.netflix.com/assets/trainers/trainer-thumb-sprite-743f428ece2acf3ab6bbc13912468394509d62ab051ea29f7c8dec2083bb5505.jpg);
+  background-size: cover;
+  background-position: 64.26% 0;
+}
+.house{
+  background-image: url(http://makeit.netflix.com/assets/trainers/trainer-thumb-sprite-743f428ece2acf3ab6bbc13912468394509d62ab051ea29f7c8dec2083bb5505.jpg);
+  background-size: cover;
+  background-position: 57.12% 0;
+}
+.images-vips table th{
+  padding-right: 5px;
+}
+.images-vips table td p{
+  border-left: 2px solid red;
+  padding-left: 5px;
 }
